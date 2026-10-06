@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowUpRight, Check, Copy, Mail, MapPin, Phone } from 'lucide-react'
+import { ArrowUpRight, Check, Copy, Download, Mail, MapPin, Phone } from 'lucide-react'
 import { useState } from 'react'
 import { Magnetic } from '@/components/Magnetic'
 import { MaskLine, Reveal } from '@/components/Reveal'
@@ -23,8 +23,8 @@ export function Contact() {
   const rows = [
     { icon: Mail, label: socials.email, href: `mailto:${socials.email}`, copy: true },
     { icon: Phone, label: socials.phone, href: `tel:${socials.phoneHref}` },
-    { icon: LinkedInIcon, label: 'LinkedIn', href: socials.linkedin },
     { icon: GitHubIcon, label: 'GitHub', href: socials.github },
+    { icon: LinkedInIcon, label: 'LinkedIn', href: socials.linkedin },
   ]
 
   return (
@@ -32,7 +32,7 @@ export function Contact() {
       <div className="grid gap-14 lg:grid-cols-[1fr_0.7fr]">
         <div>
           <Reveal>
-            <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">04 / Contact</p>
+            <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">05 / Contact</p>
           </Reveal>
           <h2 className="font-serif text-[clamp(3.2rem,8vw,7.6rem)] leading-[0.88] tracking-[-0.06em]">
             <MaskLine>Let&apos;s build</MaskLine>
@@ -42,19 +42,27 @@ export function Contact() {
           </h2>
           <Reveal delay={0.2}>
             <p className="mt-8 max-w-md text-base leading-7 text-[#626262]">
-              Open to internships, junior roles, and interesting collaborations. The fastest way to reach me is email —
-              I reply quickly.
+              Hiring, freelancing, collaborating, or just curious about what I&apos;ve made — my inbox is open and I
+              reply quickly. Email is the fastest way to reach me.
             </p>
           </Reveal>
           <Reveal delay={0.28}>
-            <Magnetic>
+            <div className="mt-8 flex flex-wrap items-center gap-5">
+              <Magnetic>
+                <a
+                  href={`mailto:${socials.email}`}
+                  className="inline-flex items-center gap-2 rounded-full bg-[#0a0a0a] px-7 py-4 text-sm font-medium text-white transition-colors hover:bg-[#3b5bff]"
+                >
+                  Start a conversation <ArrowUpRight size={16} />
+                </a>
+              </Magnetic>
               <a
-                href={`mailto:${socials.email}`}
-                className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#0a0a0a] px-7 py-4 text-sm font-medium text-white transition-colors hover:bg-[#3b5bff]"
+                href="/cv"
+                className="inline-flex items-center gap-1.5 text-sm text-[#8b8b8b] transition-colors hover:text-[#3b5bff]"
               >
-                Start a conversation <ArrowUpRight size={16} />
+                <Download size={14} /> One-page CV
               </a>
-            </Magnetic>
+            </div>
           </Reveal>
         </div>
 

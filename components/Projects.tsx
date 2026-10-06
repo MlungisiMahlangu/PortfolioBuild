@@ -17,7 +17,7 @@ export function Projects() {
           </Reveal>
         </div>
         <Reveal delay={0.16}>
-          <span className="hidden shrink-0 pb-2 text-sm text-[#8b8b8b] md:block">04 projects / 2023—26</span>
+          <span className="hidden shrink-0 pb-2 text-sm text-[#8b8b8b] md:block">04 projects / 2025—26</span>
         </Reveal>
       </div>
 

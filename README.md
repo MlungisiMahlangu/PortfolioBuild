@@ -1,7 +1,7 @@
 # Mlungisi Mahlangu — Developer Portfolio
 
 Personal portfolio site for Mlungisi Mahlangu ("Mlu"), a final-year BSc Computer Science student at the
-University of the Witwatersrand building full-stack products for the web.
+University of the Witwatersrand designing and shipping full-stack products across web and mobile.
 
 ## Stack
 
@@ -18,13 +18,14 @@ film-grain overlay, scroll-progress bar, line-mask headline reveals, and an infi
 
 ## Sections
 
-1. **Hero** — serif headline, availability status, live Johannesburg clock, CTAs (projects / contact / CV)
+1. **Hero** — serif headline, availability status, live Johannesburg clock, CTAs (projects / contact)
 2. **Marquee** — scrolling toolkit strip
-3. **About** — statement, bio, and quick facts
+3. **About** — statement, bio, quick facts, and stats band
 4. **Selected work** — four projects with live-site screenshots in browser-chrome frames
-5. **Toolkit** — languages, web/frontend, and tools
-6. **Contact** — email (with copy-to-clipboard), phone, LinkedIn, GitHub
-7. **CV** — print-optimised `/cv` route with a Download-PDF (print) action
+5. **Toolkit** — languages, web & mobile, and tools
+6. **Work with me** — many ways to collaborate (teams, freelance, open source)
+7. **Contact** — email (with copy-to-clipboard), phone, GitHub, LinkedIn
+8. **CV** — print-optimised `/cv` route with a Download-PDF (print) action
 
 ## Getting started
 

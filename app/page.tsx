@@ -7,6 +7,7 @@ import { Nav } from '@/components/Nav'
 import { Projects } from '@/components/Projects'
 import { ScrollProgress } from '@/components/ScrollProgress'
 import { Skills } from '@/components/Skills'
+import { WorkWithMe } from '@/components/WorkWithMe'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <About />
         <Projects />
         <Skills />
+        <WorkWithMe />
         <Contact />
       </main>
       <Footer />

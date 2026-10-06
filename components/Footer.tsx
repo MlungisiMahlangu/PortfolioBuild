@@ -10,6 +10,9 @@ export function Footer() {
         </span>
         <span>© 2026 Mlungisi Mahlangu. Made with intention.</span>
         <div className="flex items-center gap-5">
+          <a href="/cv" className="transition-colors hover:text-[#3b5bff]">
+            CV
+          </a>
           <a href="#top" className="transition-colors hover:text-[#3b5bff]">
             Back to top ↑
           </a>

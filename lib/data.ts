@@ -63,7 +63,7 @@ export const projects: Project[] = [
 
 export const skills = {
   Languages: ['Java', 'Python', 'C++', 'JavaScript'],
-  'Web / Frontend': ['HTML', 'CSS', 'React'],
+  'Web & Mobile': ['HTML', 'CSS', 'React', 'Android (Java)'],
   Tools: ['Git', 'GitHub', 'SQL', 'REST APIs'],
 } as const
 
@@ -77,17 +77,48 @@ export const marqueeItems = [
   'TypeScript',
   'REST APIs',
   'JWT Auth',
+  'Android (Java)',
   'Git & GitHub',
   'SQL',
   'Responsive Design',
 ]
 
+export const stats = [
+  { value: '04', label: 'Projects shipped' },
+  { value: '04', label: 'Live in production' },
+  { value: '02', label: 'Full-stack builds' },
+  { value: '01', label: 'Team product' },
+]
+
+export const waysToWork = [
+  {
+    number: '01',
+    title: 'Join a team',
+    body: 'Internships, graduate and junior roles. I slot into existing codebases quickly and ship features end to end.',
+  },
+  {
+    number: '02',
+    title: 'Freelance & contract',
+    body: 'Need a site, storefront, or MVP built properly? I take on select client work from concept to deployment.',
+  },
+  {
+    number: '03',
+    title: 'Collaborate',
+    body: 'Hackathons, side projects, startup ideas. I enjoy building alongside other people who care about the craft.',
+  },
+  {
+    number: '04',
+    title: 'Open source',
+    body: 'Happy to contribute, review, or pair on public repos — some of the best learning happens in the open.',
+  },
+]
+
 export const socials = {
-  email: 'mlungisi.mahlangu@gmail.com',
-  phone: '+27 71 767 3953',
-  phoneHref: '+27717673953',
+  email: 'shaunmlungisi4@gmail.com',
+  phone: '+27 64 953 1145',
+  phoneHref: '+27649531145',
+  github: 'https://github.com/MlungisiMahlangu',
   linkedin: 'https://www.linkedin.com/in/mlungisi-mahlangu',
-  github: 'https://github.com/mlungisimahlangu',
   location: 'Johannesburg, South Africa',
 }
 
@@ -95,5 +126,6 @@ export const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Selected work', href: '#work' },
   { label: 'Toolkit', href: '#toolkit' },
+  { label: 'Work with me', href: '#work-with-me' },
   { label: 'Contact', href: '#contact' },
 ]

@@ -29,8 +29,7 @@ export default function CVPage() {
           <p className="mt-3 text-sm leading-6 text-[#3a3a3a]">
             Final-year Computer Science student with a full-stack focus and a track record of shipping complete,
             deployed products — from database design through to production front-ends. Comfortable owning features end
-            to end, working in teams, and writing clear, maintainable code. Seeking an internship or junior developer
-            role.
+            to end, working in teams, and writing clear, maintainable code. Open to roles, freelance, and collaborations.
           </p>
         </section>
 

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion, useReducedMotion } from 'framer-motion'
-import { ArrowUpRight, Download, Mail } from 'lucide-react'
+import { ArrowUpRight, Mail } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Magnetic } from '@/components/Magnetic'
 import { MaskLine } from '@/components/Reveal'
@@ -41,15 +41,15 @@ export function Hero() {
             <span className="animate-ping-soft absolute inline-flex h-full w-full rounded-full bg-[#3b5bff]" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-[#3b5bff]" />
           </span>
-          Available for opportunities
+          Available for work & collaborations
         </motion.p>
 
         <h1 className="font-serif text-[clamp(3.6rem,10vw,8.6rem)] leading-[0.86] tracking-[-0.06em]">
-          <MaskLine delay={0.05}>Building</MaskLine>
+          <MaskLine delay={0.05}>Software,</MaskLine>
           <MaskLine delay={0.16}>
-            <em className="text-[#3b5bff]">useful</em>
+            <em className="text-[#3b5bff]">made</em>
           </MaskLine>
-          <MaskLine delay={0.27}>things.</MaskLine>
+          <MaskLine delay={0.27}>to matter.</MaskLine>
         </h1>
 
         <motion.p
@@ -59,7 +59,7 @@ export function Hero() {
           className="mt-10 max-w-md text-base leading-7 text-[#626262]"
         >
           I&apos;m <strong className="font-medium text-[#0a0a0a]">Mlungisi Mahlangu</strong>, a final-year Computer
-          Science student at Wits building thoughtful full-stack products for the web.
+          Science student at Wits — designing and shipping full-stack products across web and mobile.
         </motion.p>
 
         <motion.div
@@ -84,12 +84,6 @@ export function Hero() {
               <Mail size={15} /> Get in touch
             </a>
           </Magnetic>
-          <a
-            href="/cv"
-            className="inline-flex items-center gap-2 px-3 py-3.5 text-sm font-medium text-[#626262] transition-colors hover:text-[#3b5bff]"
-          >
-            <Download size={15} /> CV
-          </a>
         </motion.div>
       </div>
 
