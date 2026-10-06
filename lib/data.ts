@@ -36,7 +36,7 @@ export const projects: Project[] = [
       'A safety-first platform helping e-hailing riders check a driver\u2019s record history before getting in the car. Built collaboratively with a modular Route-Controller-Service architecture across auth, search, reports, and notifications.',
     tags: ['React (Vite)', 'Node.js', 'Express', 'Firebase / Firestore'],
     href: 'https://e-safetyridessa.vercel.app',
-    githubRepo: 'https://github.com/MlungisiMahlangu/E-SafetyRides',
+    githubRepo: 'https://github.com/Ronzasa/E-SafetyRides',
     image: '/projects/esafetyrides.png',
     accent: '#16181d',
     dark: true,
