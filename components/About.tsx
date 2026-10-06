@@ -18,26 +18,33 @@ export function About() {
         <div>
           <Reveal>
             <p className="max-w-3xl text-balance font-serif text-[clamp(1.9rem,4vw,4.1rem)] leading-[1.05] tracking-[-0.045em]">
-              I build for the person on the{' '}
-              <em className="text-[#3b5bff]">other side of the screen.</em>
+              Most of what I know, I learned by{' '}
+              <em className="text-[#3b5bff]">building it.</em>
             </p>
           </Reveal>
           <Reveal delay={0.12}>
             <p className="mt-9 max-w-xl text-base leading-7 text-[#626262]">
-              I&apos;m finishing my BSc in Computer Science at the University of the Witwatersrand, but most of what I
-              know came from shipping — breaking things at 2am, reading why, and rebuilding them better. That loop of
-              curiosity, craft and repeat is simply how I work.
+              I&apos;m Mlungisi — final-year Computer Science student at Wits University, and someone who&apos;d
+              rather ship something small and real than theorize about something big and hypothetical. Every project
+              on this page started the same way: an idea I couldn&apos;t stop thinking about, a blank folder, and a
+              decision to just start.
             </p>
           </Reveal>
           <Reveal delay={0.18}>
             <p className="mt-5 max-w-xl text-base leading-7 text-[#626262]">
-              My happy place is the gap between a rough idea and a product someone genuinely enjoys: clean
-              architecture under the hood, honest interfaces on top, and enough care in the small interactions that
-              the whole thing feels considered. Web platform, mobile app, or an idea that doesn&apos;t have a shape
-              yet — I&apos;m interested.
+              I&apos;ve built a full-stack car rental platform from the database up, a web app that helps riders
+              check a driver&apos;s safety record before getting in the car, and a handful of other things in
+              between. Each one teaching me something the last one didn&apos;t. I care about software that feels
+              considered — fast and clear. The difference between a project and a product is whether someone else
+              can pick it up and just use it. I aim for the second one.
             </p>
           </Reveal>
           <Reveal delay={0.24}>
+            <p className="mt-5 max-w-xl text-base font-medium italic text-[#3b5bff]">
+              The learning never really stops. Neither does the building.
+            </p>
+          </Reveal>
+          <Reveal delay={0.3}>
             <dl className="mt-12 grid gap-x-10 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
               {facts.map((fact) => (
                 <div key={fact.label} className="border-t border-black/10 pt-4">
@@ -49,7 +56,7 @@ export function About() {
               ))}
             </dl>
           </Reveal>
-          <Reveal delay={0.3}>
+          <Reveal delay={0.36}>
             <dl className="mt-14 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
               {stats.map((stat) => (
                 <div key={stat.label}>

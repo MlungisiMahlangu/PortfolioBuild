@@ -13,7 +13,7 @@ export function Projects() {
             </p>
           </Reveal>
           <Reveal delay={0.08}>
-            <h2 className="font-serif text-5xl tracking-[-0.05em] lg:text-7xl">Things I&apos;ve made.</h2>
+            <h2 className="font-serif text-5xl tracking-[-0.05em] lg:text-7xl">Things I&apos;ve built.</h2>
           </Reveal>
         </div>
         <Reveal delay={0.16}>

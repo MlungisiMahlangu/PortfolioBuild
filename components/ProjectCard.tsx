@@ -3,6 +3,7 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import { ArrowUpRight } from 'lucide-react'
 import type { Project } from '@/lib/data'
+import { GitHubIcon } from '@/components/SocialIcons'
 
 export function ProjectCard({ project, index }: { project: Project; index: number }) {
   const reduce = useReducedMotion()
@@ -47,6 +48,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
               {project.number} / {project.category}
             </p>
             <h3 className="font-serif text-3xl tracking-[-0.04em]">{project.title}</h3>
+            <p className="mt-1.5 text-xs text-[#3b5bff]">{project.role}</p>
           </div>
           <a
             aria-label={`Visit ${project.title} live site`}
@@ -72,15 +74,29 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
           ))}
         </div>
 
-        <a
-          href={project.href}
-          target="_blank"
-          rel="noreferrer"
-          className="mt-auto inline-flex items-center gap-2 pt-7 text-sm font-medium text-[#3b5bff]"
-        >
-          Visit live demo
-          <ArrowUpRight size={15} className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-        </a>
+        <div className="mt-auto flex items-center gap-4 pt-7">
+          <a
+            href={project.href}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-sm font-medium text-[#3b5bff]"
+          >
+            Live demo
+            <ArrowUpRight size={15} className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+          </a>
+          {project.githubRepo && (
+            <a
+              href={project.githubRepo}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-medium text-[#626262] transition-colors hover:text-[#3b5bff]"
+            >
+              <GitHubIcon size={14} />
+              Code
+              <ArrowUpRight size={14} className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+            </a>
+          )}
+        </div>
       </div>
     </motion.article>
   )

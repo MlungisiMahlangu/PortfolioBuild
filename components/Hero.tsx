@@ -45,11 +45,11 @@ export function Hero() {
         </motion.p>
 
         <h1 className="font-serif text-[clamp(3.6rem,10vw,8.6rem)] leading-[0.86] tracking-[-0.06em]">
-          <MaskLine delay={0.05}>Software,</MaskLine>
+          <MaskLine delay={0.05}>From</MaskLine>
           <MaskLine delay={0.16}>
-            <em className="text-[#3b5bff]">made</em>
+            <em className="text-[#3b5bff]">idea</em>
           </MaskLine>
-          <MaskLine delay={0.27}>to matter.</MaskLine>
+          <MaskLine delay={0.27}>to production.</MaskLine>
         </h1>
 
         <motion.p
@@ -98,12 +98,11 @@ export function Hero() {
           <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-[#3b5bff]/25 blur-3xl" />
           <div className="relative mb-16 flex justify-between text-[11px] uppercase tracking-[0.2em] text-white/45">
             <span>Portfolio / 2026</span>
-            <span>01—04</span>
           </div>
           <div className="relative mb-12 font-serif text-[2.9rem] leading-[1.02] tracking-[-0.05em]">
             Curiosity
             <br />
-            <span className="text-[#8d9cff]">→ craft</span>
+            <span className="text-[#8d9cff]">→ craft → production</span>
           </div>
           <div className="relative flex items-end justify-between border-t border-white/12 pt-5 text-xs text-white/50">
             <span>Johannesburg, ZA</span>

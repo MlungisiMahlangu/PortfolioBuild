@@ -7,23 +7,23 @@ export function Skills() {
       <div className="mx-auto grid max-w-[1240px] gap-14 px-6 py-24 lg:grid-cols-[0.6fr_1fr] lg:px-10 lg:py-32">
         <div>
           <Reveal>
-            <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#8d9cff]">03 / The toolkit</p>
+            <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#8d9cff]">03 / What I work with</p>
           </Reveal>
           <Reveal delay={0.08}>
             <h2 className="font-serif text-5xl tracking-[-0.05em] lg:text-7xl">
-              Always
+              Tools for turning
               <br />
-              <em className="text-[#8d9cff]">learning.</em>
+              <em className="text-[#8d9cff]">ideas into products.</em>
             </h2>
           </Reveal>
           <Reveal delay={0.16}>
             <p className="mt-8 max-w-xs text-sm leading-6 text-white/55">
-              The languages, frameworks, and tools I reach for — and the ones I&apos;m picking up next.
+              Languages, frameworks, platforms, and tools I use to design, build, connect, and ship software.
             </p>
           </Reveal>
         </div>
 
-        <div className="grid gap-10 sm:grid-cols-3">
+        <div className="grid gap-10 sm:grid-cols-2">
           {Object.entries(skills).map(([group, items], gi) => (
             <Reveal key={group} delay={0.1 + gi * 0.08}>
               <h3 className="mb-5 text-xs font-medium uppercase tracking-[0.16em] text-white/40">{group}</h3>

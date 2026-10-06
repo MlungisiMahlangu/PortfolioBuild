@@ -32,22 +32,23 @@ export function Contact() {
       <div className="grid gap-14 lg:grid-cols-[1fr_0.7fr]">
         <div>
           <Reveal>
-            <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">05 / Contact</p>
+            <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">05 / Start a conversation</p>
           </Reveal>
           <h2 className="font-serif text-[clamp(3.2rem,8vw,7.6rem)] leading-[0.88] tracking-[-0.06em]">
-            <MaskLine>Let&apos;s build</MaskLine>
+            <MaskLine>Let&apos;s make it</MaskLine>
             <MaskLine delay={0.12}>
-              <em className="text-[#3b5bff]">something.</em>
+              <em className="text-[#3b5bff]">real.</em>
             </MaskLine>
           </h2>
           <Reveal delay={0.2}>
             <p className="mt-8 max-w-md text-base leading-7 text-[#626262]">
-              Hiring, freelancing, collaborating, or just curious about what I&apos;ve made — my inbox is open and I
-              reply quickly. Email is the fastest way to reach me.
+              Hiring, freelancing, collaborating, or simply curious about what I&apos;ve built — I&apos;m always open
+              to a good conversation. If you have an idea, a problem to solve, or an opportunity worth discussing, send
+              me a message. I&apos;ll get back to you.
             </p>
           </Reveal>
           <Reveal delay={0.28}>
-            <div className="mt-8 flex flex-wrap items-center gap-5">
+            <div className="mt-8 flex flex-wrap items-center gap-4">
               <Magnetic>
                 <a
                   href={`mailto:${socials.email}`}
@@ -56,12 +57,14 @@ export function Contact() {
                   Start a conversation <ArrowUpRight size={16} />
                 </a>
               </Magnetic>
-              <a
-                href="/cv"
-                className="inline-flex items-center gap-1.5 text-sm text-[#8b8b8b] transition-colors hover:text-[#3b5bff]"
-              >
-                <Download size={14} /> One-page CV
-              </a>
+              <Magnetic>
+                <a
+                  href="/cv"
+                  className="inline-flex items-center gap-2 rounded-full border border-black/15 px-7 py-4 text-sm font-medium transition-colors hover:border-[#3b5bff] hover:text-[#3b5bff]"
+                >
+                  <Download size={15} /> View my CV
+                </a>
+              </Magnetic>
             </div>
           </Reveal>
         </div>

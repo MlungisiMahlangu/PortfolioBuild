@@ -10,17 +10,17 @@ export function WorkWithMe() {
           <div>
             <Reveal>
               <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">
-                04 / Work with me
+                04 / Let&apos;s work together
               </p>
             </Reveal>
             <Reveal delay={0.08}>
-              <h2 className="font-serif text-5xl tracking-[-0.05em] lg:text-7xl">Many ways in.</h2>
+              <h2 className="font-serif text-5xl tracking-[-0.05em] lg:text-7xl">Have something worth building?</h2>
             </Reveal>
           </div>
           <Reveal delay={0.16}>
             <p className="max-w-xs pb-2 text-sm leading-6 text-[#626262]">
-              This site isn&apos;t only a job application — it&apos;s an open door. However you like to build,
-              there&apos;s probably a way we fit.
+              Whether you&apos;re hiring, starting a project, or looking for someone to build alongside you, I&apos;m
+              always interested in good ideas and meaningful work.
             </p>
           </Reveal>
         </div>
@@ -48,7 +48,7 @@ export function WorkWithMe() {
             href={`mailto:${socials.email}`}
             className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-[#3b5bff] transition-colors hover:text-[#2948ed]"
           >
-            Tell me what you&apos;re making <ArrowUpRight size={15} />
+            Tell me what you&apos;re building <ArrowUpRight size={15} />
           </a>
         </Reveal>
       </div>
