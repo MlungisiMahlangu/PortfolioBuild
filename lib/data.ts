@@ -138,8 +138,8 @@ export const socials = {
 
 export const navLinks = [
   { label: 'About', href: '#about' },
-  { label: 'Selected work', href: '#work' },
-  { label: 'Toolkit', href: '#toolkit' },
-  { label: 'Work with me', href: '#work-with-me' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Work', href: '#work' },
+  { label: 'What I work with', href: '#toolkit' },
+  { label: "Let's work together", href: '#work-with-me' },
+  { label: 'Get in touch', href: '#contact' },
 ]
