@@ -141,5 +141,4 @@ export const navLinks = [
   { label: 'Work', href: '#work' },
   { label: 'What I work with', href: '#toolkit' },
   { label: "Let's work together", href: '#work-with-me' },
-  { label: 'Get in touch', href: '#contact' },
 ]

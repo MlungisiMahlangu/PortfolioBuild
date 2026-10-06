@@ -42,6 +42,7 @@ export default function CVPage() {
                   <h3 className="font-serif text-xl tracking-[-0.03em]">{p.title}</h3>
                   <span className="text-xs text-[#8b8b8b]">{p.category}</span>
                 </div>
+                <p className="mt-1 text-xs font-medium text-[#3b5bff]">{p.role}</p>
                 <p className="mt-1.5 text-sm leading-6 text-[#3a3a3a]">{p.description}</p>
                 <p className="mt-1.5 text-xs text-[#626262]">{p.tags.join(' · ')}</p>
                 <p className="mt-1 text-xs text-[#3b5bff]">{p.href.replace('https://', '')}</p>
