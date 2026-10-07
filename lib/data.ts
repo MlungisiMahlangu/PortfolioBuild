@@ -43,20 +43,6 @@ export const projects: Project[] = [
   },
   {
     number: '03',
-    title: 'CountryScope',
-    category: 'Interactive web app',
-    role: 'Full-stack developer · Solo project',
-    description:
-      'A focused country explorer powered by the REST Countries API, with real-time filtering, neighbouring-country navigation, and considered loading and error states.',
-    tags: ['JavaScript', 'REST API', 'Responsive UI'],
-    href: 'https://mlungisimahlangu.github.io/CountryScope',
-    githubRepo: 'https://github.com/MlungisiMahlangu/CountryScope',
-    image: '/projects/countryscope.png',
-    accent: '#e9e3ff',
-    dark: false,
-  },
-  {
-    number: '04',
     title: 'Grip On',
     category: 'E-commerce frontend',
     role: 'Frontend developer · Solo project',
@@ -67,6 +53,20 @@ export const projects: Project[] = [
     githubRepo: 'https://github.com/MlungisiMahlangu/grip-on-website',
     image: '/projects/gripon.png',
     accent: '#f1e8d8',
+    dark: false,
+  },
+  {
+    number: '04',
+    title: 'CountryScope',
+    category: 'Interactive web app',
+    role: 'Full-stack developer · Solo project',
+    description:
+      'A focused country explorer powered by the REST Countries API, with real-time filtering, neighbouring-country navigation, and considered loading and error states.',
+    tags: ['JavaScript', 'REST API', 'Responsive UI'],
+    href: 'https://mlungisimahlangu.github.io/CountryScope',
+    githubRepo: 'https://github.com/MlungisiMahlangu/CountryScope',
+    image: '/projects/countryscope.png',
+    accent: '#e9e3ff',
     dark: false,
   },
 ]

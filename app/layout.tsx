@@ -2,6 +2,7 @@ import { Analytics } from '@vercel/analytics/next'
 import { MotionConfig } from 'framer-motion'
 import { Fraunces, Inter } from 'next/font/google'
 import type { Metadata, Viewport } from 'next'
+import { ScrollToTop } from '@/components/ScrollToTop'
 import './globals.css'
 
 const fraunces = Fraunces({
@@ -18,7 +19,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://portfolio-build.vercel.app'),
+  metadataBase: new URL('https://portfolio-build-phi.vercel.app'),
   title: 'Mlungisi Mahlangu — Full-stack developer',
   description:
     'Portfolio of Mlungisi Mahlangu, a final-year Computer Science student at Wits designing and shipping full-stack products across web and mobile.',
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="antialiased">
+        <ScrollToTop />
         <MotionConfig reducedMotion="user">{children}</MotionConfig>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

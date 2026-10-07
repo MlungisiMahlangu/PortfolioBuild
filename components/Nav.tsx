@@ -5,6 +5,16 @@ import { ArrowUpRight, Menu, X } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { navLinks } from '@/lib/data'
 
+const HEADER_OFFSET = 72
+
+function scrollToSection(href: string) {
+  const id = href.replace('#', '')
+  const el = document.getElementById(id)
+  if (!el) return
+  const top = el.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET
+  window.scrollTo({ top, behavior: 'smooth' })
+}
+
 export function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
@@ -15,6 +25,20 @@ export function Nav() {
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => { document.body.style.overflow = '' }
+  }, [open])
+
+  const handleNavClick = (href: string) => {
+    setOpen(false)
+    setTimeout(() => scrollToSection(href), 200)
+  }
 
   return (
     <header
@@ -65,21 +89,20 @@ export function Nav() {
           >
             <div className="flex flex-col gap-1 px-6 py-5">
               {navLinks.map((link, i) => (
-                <motion.a
+                <motion.button
                   key={link.href}
-                  href={link.href}
-                  onClick={() => setOpen(false)}
+                  onClick={() => handleNavClick(link.href)}
                   initial={{ opacity: 0, x: -12 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.06 * i + 0.08 }}
-                  className="border-b border-black/[0.05] py-3 font-serif text-2xl tracking-[-0.03em] last:border-0"
+                  className="border-b border-black/[0.05] bg-transparent py-3 text-left font-serif text-2xl tracking-[-0.03em] text-[#0a0a0a] last:border-0"
                 >
                   {link.label}
-                </motion.a>
+                </motion.button>
               ))}
               <a
                 href="#contact"
-                onClick={() => setOpen(false)}
+                onClick={() => handleNavClick('#contact')}
                 className="mt-3 inline-flex items-center justify-center gap-2 rounded-full bg-[#0a0a0a] px-5 py-3 text-sm font-medium text-white"
               >
                 Let&apos;s talk <ArrowUpRight size={15} />
