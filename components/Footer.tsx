@@ -1,4 +1,4 @@
-import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
+import { GitHubIcon } from '@/components/SocialIcons'
 import { socials } from '@/lib/data'
 
 export function Footer() {
@@ -24,9 +24,6 @@ export function Footer() {
             </a>
             <a aria-label="GitHub" href={socials.github} target="_blank" rel="noreferrer" className="transition-colors hover:text-[#3b5bff]">
               <GitHubIcon size={16} />
-            </a>
-            <a aria-label="LinkedIn" href={socials.linkedin} target="_blank" rel="noreferrer" className="transition-colors hover:text-[#3b5bff]">
-              <LinkedInIcon size={16} />
             </a>
           </div>
         </div>

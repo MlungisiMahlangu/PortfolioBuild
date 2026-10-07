@@ -24,7 +24,7 @@ film-grain overlay, scroll-progress bar, line-mask headline reveals, and an infi
 4. **Selected work** — four projects with live-site screenshots in browser-chrome frames
 5. **Toolkit** — languages, web & mobile, and tools
 6. **Work with me** — many ways to collaborate (teams, freelance, open source)
-7. **Contact** — email (with copy-to-clipboard), phone, GitHub, LinkedIn
+7. **Contact** — email (with copy-to-clipboard), phone, GitHub
 8. **CV** — print-optimised `/cv` route with a Download-PDF (print) action
 
 ## Getting started

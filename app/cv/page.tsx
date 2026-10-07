@@ -20,7 +20,6 @@ export default function CVPage() {
             <span>{socials.phone}</span>
             <span>{socials.location}</span>
             <span>{socials.github.replace('https://', '')}</span>
-            <span>{socials.linkedin.replace('https://', '')}</span>
           </p>
         </header>
 

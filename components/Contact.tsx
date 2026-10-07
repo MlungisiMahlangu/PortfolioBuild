@@ -4,7 +4,7 @@ import { ArrowUpRight, Check, Copy, Download, Mail, MapPin, Phone } from 'lucide
 import { useState } from 'react'
 import { Magnetic } from '@/components/Magnetic'
 import { MaskLine, Reveal } from '@/components/Reveal'
-import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
+import { GitHubIcon } from '@/components/SocialIcons'
 import { socials } from '@/lib/data'
 
 export function Contact() {
@@ -24,7 +24,6 @@ export function Contact() {
     { icon: Mail, label: socials.email, href: `mailto:${socials.email}`, copy: true },
     { icon: Phone, label: socials.phone, href: `tel:${socials.phoneHref}` },
     { icon: GitHubIcon, label: 'GitHub', href: socials.github },
-    { icon: LinkedInIcon, label: 'LinkedIn', href: socials.linkedin },
   ]
 
   return (

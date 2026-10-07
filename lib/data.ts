@@ -132,7 +132,6 @@ export const socials = {
   phone: '+27 64 953 1145',
   phoneHref: '+27649531145',
   github: 'https://github.com/MlungisiMahlangu',
-  linkedin: 'https://www.linkedin.com/in/mlungisi-mahlangu',
   location: 'Johannesburg, South Africa',
 }
 
