@@ -260,3 +260,16 @@
     animation: none;
   }
 }
+
+/* Print / Save-as-PDF: keep the text layer clean so copied words stay readable,
+   and keep links intact instead of being split across lines. */
+@media print {
+  body {
+    font-variant-ligatures: none;
+    font-feature-settings: normal;
+    text-rendering: geometricPrecision;
+  }
+  h2 {
+    letter-spacing: 0.14em;
+  }
+}

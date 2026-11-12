@@ -132,6 +132,7 @@ export const socials = {
   phone: '+27 64 953 1145',
   phoneHref: '+27649531145',
   github: 'https://github.com/MlungisiMahlangu',
+  site: 'https://portfolio-build-phi.vercel.app',
   location: 'Johannesburg, South Africa',
 }
 

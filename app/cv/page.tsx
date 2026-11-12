@@ -1,6 +1,8 @@
 import { CVToolbar } from '@/components/CVToolbar'
 import { projects, skills, socials } from '@/lib/data'
 
+const cvLink = 'text-[#3b5bff] underline underline-offset-2 print:whitespace-nowrap'
+
 export const metadata = {
   title: 'CV · Mlungisi Mahlangu',
   description: 'Curriculum vitae of Mlungisi Mahlangu, full-stack developer.',
@@ -16,10 +18,19 @@ export default function CVPage() {
           <h1 className="font-serif text-5xl tracking-[-0.05em]">Mlungisi Mahlangu</h1>
           <p className="mt-3 text-base text-[#626262]">Full-stack developer · Final-year BSc Computer Science, University of the Witwatersrand</p>
           <p className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-xs text-[#626262]">
-            <span>{socials.email}</span>
-            <span>{socials.phone}</span>
+            <a href={`mailto:${socials.email}`} className={cvLink}>
+              {socials.email}
+            </a>
+            <a href={`tel:${socials.phoneHref}`} className={cvLink}>
+              {socials.phone}
+            </a>
             <span>{socials.location}</span>
-            <span>{socials.github.replace('https://', '')}</span>
+            <a href={socials.github} target="_blank" rel="noopener noreferrer" className={cvLink}>
+              {socials.github.replace('https://', '')}
+            </a>
+            <a href={socials.site} target="_blank" rel="noopener noreferrer" className={cvLink}>
+              {socials.site.replace('https://', '')}
+            </a>
           </p>
         </header>
 
@@ -31,12 +42,12 @@ export default function CVPage() {
             to end, working in teams, and writing clear, maintainable code. Open to roles, freelance, and collaborations.
             {' '}All of it, including live demos of every project, is viewable on my portfolio site:{' '}
             <a
-              href="https://portfolio-build-phi.vercel.app"
+              href={socials.site}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#3b5bff] underline underline-offset-2"
+              className={cvLink}
             >
-              portfolio-build-phi.vercel.app
+              {socials.site.replace('https://', '')}
             </a>
             .
           </p>
@@ -54,7 +65,11 @@ export default function CVPage() {
                 <p className="mt-1 text-xs font-medium text-[#3b5bff]">{p.role}</p>
                 <p className="mt-1.5 text-sm leading-6 text-[#3a3a3a]">{p.description}</p>
                 <p className="mt-1.5 text-xs text-[#626262]">{p.tags.join(' · ')}</p>
-                <p className="mt-1 text-xs text-[#3b5bff]">{p.href.replace('https://', '')}</p>
+                <p className="mt-1 text-xs text-[#3b5bff]">
+                  <a href={p.href} target="_blank" rel="noopener noreferrer" className={cvLink}>
+                    {p.href.replace('https://', '')}
+                  </a>
+                </p>
               </div>
             ))}
           </div>
