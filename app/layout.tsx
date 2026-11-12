@@ -20,13 +20,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://portfolio-build-phi.vercel.app'),
-  title: 'Mlungisi Mahlangu — Full-stack developer',
+  title: 'Mlungisi Mahlangu · Full-stack developer',
   description:
     'Portfolio of Mlungisi Mahlangu, a final-year Computer Science student at Wits designing and shipping full-stack products across web and mobile.',
   keywords: ['Mlungisi Mahlangu', 'full-stack developer', 'React', 'Node.js', 'portfolio', 'Johannesburg'],
   authors: [{ name: 'Mlungisi Mahlangu' }],
   openGraph: {
-    title: 'Mlungisi Mahlangu — Full-stack developer',
+    title: 'Mlungisi Mahlangu · Full-stack developer',
     description: 'Final-year CS student at Wits designing and shipping full-stack products across web and mobile.',
     type: 'website',
     locale: 'en_ZA',

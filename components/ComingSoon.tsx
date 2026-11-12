@@ -32,7 +32,7 @@ export function ComingSoon() {
 
         <Reveal delay={0.14}>
           <p className="mx-auto mt-4 max-w-md text-sm leading-6 text-[#626262]">
-            Data structures, algorithms, systems programming, and more — the work that shaped how I think about software.
+            Data structures, algorithms, systems programming, and more, the work that shaped how I think about software.
             Curated and coming soon.
           </p>
         </Reveal>

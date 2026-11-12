@@ -49,7 +49,7 @@ export const projects: Project[] = [
     description:
       'A gym-apparel concept storefront focused on clean product presentation and a smooth, responsive browsing experience from landing page to product discovery.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
-    href: 'https://mlungisimahlangu.github.io/grip-on-website',
+    href: 'https://grip-on-website.netlify.app',
     githubRepo: 'https://github.com/MlungisiMahlangu/grip-on-website',
     image: '/projects/gripon.png',
     accent: '#f1e8d8',

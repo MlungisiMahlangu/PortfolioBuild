@@ -24,7 +24,7 @@ export function About() {
           </Reveal>
           <Reveal delay={0.12}>
             <p className="mt-9 max-w-xl text-base leading-7 text-[#626262]">
-              I&apos;m Mlungisi — final-year Computer Science student at Wits University, and someone who&apos;d
+              I&apos;m Mlungisi, final-year Computer Science student at Wits University, and someone who&apos;d
               rather ship something small and real than theorize about something big and hypothetical. Every project
               on this page started the same way: an idea I couldn&apos;t stop thinking about, a blank folder, and a
               decision to just start.
@@ -35,7 +35,7 @@ export function About() {
               I&apos;ve built a full-stack car rental platform from the database up, a web app that helps riders
               check a driver&apos;s safety record before getting in the car, and a handful of other things in
               between. Each one teaching me something the last one didn&apos;t. I care about software that feels
-              considered — fast and clear. The difference between a project and a product is whether someone else
+              considered, fast and clear. The difference between a project and a product is whether someone else
               can pick it up and just use it. I aim for the second one.
             </p>
           </Reveal>

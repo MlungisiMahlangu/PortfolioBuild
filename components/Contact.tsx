@@ -41,7 +41,7 @@ export function Contact() {
           </h2>
           <Reveal delay={0.2}>
             <p className="mt-8 max-w-md text-base leading-7 text-[#626262]">
-              Hiring, freelancing, collaborating, or simply curious about what I&apos;ve built — I&apos;m always open
+              Hiring, freelancing, collaborating, or simply curious about what I&apos;ve built, I&apos;m always open
               to a good conversation. If you have an idea, a problem to solve, or an opportunity worth discussing, send
               me a message. I&apos;ll get back to you.
             </p>

@@ -2,7 +2,7 @@ import { CVToolbar } from '@/components/CVToolbar'
 import { projects, skills, socials } from '@/lib/data'
 
 export const metadata = {
-  title: 'CV — Mlungisi Mahlangu',
+  title: 'CV · Mlungisi Mahlangu',
   description: 'Curriculum vitae of Mlungisi Mahlangu, full-stack developer.',
 }
 
@@ -27,8 +27,18 @@ export default function CVPage() {
           <h2 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">Profile</h2>
           <p className="mt-3 text-sm leading-6 text-[#3a3a3a]">
             Final-year Computer Science student with a full-stack focus and a track record of shipping complete,
-            deployed products — from database design through to production front-ends. Comfortable owning features end
+            deployed products, from database design through to production front-ends. Comfortable owning features end
             to end, working in teams, and writing clear, maintainable code. Open to roles, freelance, and collaborations.
+            {' '}All of it, including live demos of every project, is viewable on my portfolio site:{' '}
+            <a
+              href="https://portfolio-build-phi.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#3b5bff] underline underline-offset-2"
+            >
+              portfolio-build-phi.vercel.app
+            </a>
+            .
           </p>
         </section>
 

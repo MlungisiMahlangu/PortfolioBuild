@@ -59,7 +59,7 @@ export function Hero() {
           className="mt-10 max-w-md text-base leading-7 text-[#626262]"
         >
           I&apos;m <strong className="font-medium text-[#0a0a0a]">Mlungisi Mahlangu</strong>, a final-year Computer
-          Science student at Wits — designing and shipping full-stack products across web and mobile.
+          Science student at Wits designing and shipping full-stack products across web and mobile.
         </motion.p>
 
         <motion.div
