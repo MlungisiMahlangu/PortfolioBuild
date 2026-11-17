@@ -1,5 +1,4 @@
 import { About } from '@/components/About'
-import { ComingSoon } from '@/components/ComingSoon'
 import { Contact } from '@/components/Contact'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
@@ -20,7 +19,6 @@ export default function Home() {
         <Marquee />
         <About />
         <Projects />
-        <ComingSoon />
         <Skills />
         <WorkWithMe />
         <Contact />
