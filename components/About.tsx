@@ -17,7 +17,7 @@ export function About() {
         </Reveal>
         <div>
           <Reveal>
-            <p className="max-w-3xl text-balance font-serif text-[clamp(1.9rem,4vw,4.1rem)] leading-[1.05] tracking-[-0.045em]">
+            <p className="max-w-3xl text-balance font-serif text-[clamp(1.6rem,2.6vw,2.6rem)] leading-[1.15] tracking-[-0.035em]">
               Most of what I know, I learned by{' '}
               <em className="text-[#3b5bff]">building it.</em>
             </p>
@@ -60,7 +60,7 @@ export function About() {
             <dl className="mt-14 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
               {stats.map((stat) => (
                 <div key={stat.label}>
-                  <dd className="font-serif text-[clamp(2.6rem,5vw,4.4rem)] leading-none tracking-[-0.05em] text-[#0a0a0a]">
+                  <dd className="font-serif text-[clamp(2.1rem,3.2vw,3rem)] leading-none tracking-[-0.04em] text-[#0a0a0a]">
                     {stat.value}
                   </dd>
                   <dt className="mt-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#8b8b8b]">

@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="border-t border-black/[0.07]">
       <div className="mx-auto max-w-[1240px] px-6 lg:px-10">
         <div className="border-b border-black/[0.07] py-10 text-center">
-          <p className="font-serif text-[clamp(1.6rem,4vw,2.8rem)] tracking-[-0.04em] text-[#0a0a0a]">
+          <p className="font-serif text-[clamp(1.35rem,2.4vw,2rem)] tracking-[-0.035em] text-[#0a0a0a]">
             Think it. <span className="text-[#3b5bff]">Build it.</span> Ship it.
           </p>
         </div>

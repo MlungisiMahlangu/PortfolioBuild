@@ -10,7 +10,7 @@ export function Skills() {
             <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#8d9cff]">03 / What I work with</p>
           </Reveal>
           <Reveal delay={0.08}>
-            <h2 className="font-serif text-5xl tracking-[-0.05em] lg:text-7xl">
+            <h2 className="font-serif text-[2rem] leading-[1.1] tracking-[-0.04em] lg:text-[2.4rem]">
               Tools for turning
               <br />
               <em className="text-[#8d9cff]">ideas into products.</em>

@@ -33,7 +33,7 @@ export function Contact() {
           <Reveal>
             <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">05 / Start a conversation</p>
           </Reveal>
-          <h2 className="font-serif text-[clamp(3.2rem,8vw,7.6rem)] leading-[0.88] tracking-[-0.06em]">
+          <h2 className="font-serif text-[clamp(2.4rem,4.6vw,3.8rem)] leading-[0.94] tracking-[-0.05em]">
             <MaskLine>Let&apos;s make it</MaskLine>
             <MaskLine delay={0.12}>
               <em className="text-[#3b5bff]">real.</em>

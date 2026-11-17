@@ -14,7 +14,7 @@ export function WorkWithMe() {
               </p>
             </Reveal>
             <Reveal delay={0.08}>
-              <h2 className="font-serif text-5xl tracking-[-0.05em] lg:text-7xl">Have something worth building?</h2>
+              <h2 className="font-serif text-4xl leading-[1.1] tracking-[-0.04em] lg:text-5xl">Have something worth building?</h2>
             </Reveal>
           </div>
           <Reveal delay={0.16}>

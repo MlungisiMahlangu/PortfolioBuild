@@ -44,7 +44,7 @@ export function Hero() {
           Available for work & collaborations
         </motion.p>
 
-        <h1 className="font-serif text-[clamp(3.6rem,10vw,8.6rem)] leading-[0.86] tracking-[-0.06em]">
+        <h1 className="font-serif text-[clamp(2.9rem,6.5vw,5.2rem)] leading-[0.92] tracking-[-0.05em]">
           <MaskLine delay={0.05}>From</MaskLine>
           <MaskLine delay={0.16}>
             <em className="text-[#3b5bff]">idea</em>
@@ -99,7 +99,7 @@ export function Hero() {
           <div className="relative mb-16 flex justify-between text-[11px] uppercase tracking-[0.2em] text-white/45">
             <span>Portfolio / 2026</span>
           </div>
-          <div className="relative mb-12 font-serif text-[2.9rem] leading-[1.02] tracking-[-0.05em]">
+          <div className="relative mb-12 font-serif text-[2rem] leading-[1.06] tracking-[-0.045em]">
             Curiosity
             <br />
             <span className="text-[#8d9cff]">→ craft → production</span>
