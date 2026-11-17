@@ -44,16 +44,16 @@ export const projects: Project[] = [
   {
     number: '03',
     title: 'Grip On',
-    category: 'E-commerce frontend',
-    role: 'Frontend developer · Solo project',
+    category: 'Full-stack e-commerce platform',
+    role: 'Full-stack developer · Solo project',
     description:
-      'A gym-apparel concept storefront focused on clean product presentation and a smooth, responsive browsing experience from landing page to product discovery.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+      'A gym-apparel brand rebuilt from a static concept page into a production commerce platform: Supabase-backed catalogue, cash-on-delivery checkout with server-side pricing and validation, and an admin back office for orders, products and store settings.',
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase / Postgres', 'Server Actions', 'Auth & RLS'],
     href: 'https://grip-on-website.netlify.app',
     githubRepo: 'https://github.com/MlungisiMahlangu/grip-on-website',
     image: '/projects/gripon.png',
-    accent: '#f1e8d8',
-    dark: false,
+    accent: '#121212',
+    dark: true,
   },
   {
     number: '04',
@@ -73,17 +73,19 @@ export const projects: Project[] = [
 
 export const skills = {
   Languages: ['Java', 'Python', 'C++', 'JavaScript', 'TypeScript'],
-  'Frontend & Mobile': ['HTML', 'CSS', 'React', 'Tailwind CSS', 'Android (Java)'],
-  'Backend & Data': ['Node.js', 'Express', 'MongoDB', 'Firebase / Firestore', 'SQL', 'REST APIs', 'JWT Authentication', 'Clerk'],
+  'Frontend & Mobile': ['HTML', 'CSS', 'React', 'Next.js', 'Tailwind CSS', 'Android (Java)'],
+  'Backend & Data': ['Node.js', 'Express', 'MongoDB', 'Firebase / Firestore', 'Supabase / Postgres', 'SQL', 'REST APIs', 'JWT Authentication', 'Clerk'],
   'Tools & Workflow': ['Git', 'GitHub', 'Vercel', 'Responsive Design', 'API Integration'],
 } as const
 
 export const marqueeItems = [
   'React',
+  'Next.js',
   'Node.js',
   'Express',
   'MongoDB',
   'Firebase',
+  'Supabase',
   'Tailwind CSS',
   'TypeScript',
   'REST APIs',
@@ -100,7 +102,7 @@ export const marqueeItems = [
 export const stats = [
   { value: '04', label: 'Projects shipped' },
   { value: '04', label: 'Live in production' },
-  { value: '02', label: 'Full-stack builds' },
+  { value: '03', label: 'Full-stack builds' },
   { value: '01', label: 'Team product' },
 ]
 
