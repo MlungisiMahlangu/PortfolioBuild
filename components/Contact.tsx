@@ -31,7 +31,7 @@ export function Contact() {
       <div className="grid gap-14 lg:grid-cols-[1fr_0.7fr]">
         <div>
           <Reveal>
-            <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">05 / Start a conversation</p>
+            <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">06 / Start a conversation</p>
           </Reveal>
           <h2 className="font-serif text-[clamp(2.4rem,4.6vw,3.8rem)] leading-[0.94] tracking-[-0.05em]">
             <MaskLine>Let&apos;s make it</MaskLine>
@@ -41,9 +41,9 @@ export function Contact() {
           </h2>
           <Reveal delay={0.2}>
             <p className="mt-8 max-w-md text-base leading-7 text-[#626262]">
-              Hiring, freelancing, collaborating, or simply curious about what I&apos;ve built, I&apos;m always open
-              to a good conversation. If you have an idea, a problem to solve, or an opportunity worth discussing, send
-              me a message. I&apos;ll get back to you.
+              I&apos;m currently seeking graduate and junior software development opportunities. If you&apos;re hiring,
+              running a graduate programme or an internship, or have a project where my skills could contribute, I&apos;d
+              like to hear from you. Freelance and contract work is welcome too.
             </p>
           </Reveal>
           <Reveal delay={0.28}>

@@ -7,7 +7,7 @@ export function Skills() {
       <div className="mx-auto grid max-w-[1240px] gap-14 px-6 py-24 lg:grid-cols-[0.6fr_1fr] lg:px-10 lg:py-32">
         <div>
           <Reveal>
-            <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#8d9cff]">03 / What I work with</p>
+            <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#8d9cff]">04 / What I work with</p>
           </Reveal>
           <Reveal delay={0.08}>
             <h2 className="font-serif text-[2rem] leading-[1.1] tracking-[-0.04em] lg:text-[2.4rem]">

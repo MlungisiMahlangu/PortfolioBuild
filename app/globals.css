@@ -261,8 +261,13 @@
   }
 }
 
-/* Print / Save-as-PDF: keep the text layer clean so copied words stay readable,
-   and keep links intact instead of being split across lines. */
+/* Print / Save-as-PDF: A4 with consistent margins, a clean text layer so copied
+   words stay readable, and links kept intact instead of being split across lines. */
+@page {
+  size: A4;
+  margin: 13mm 14mm;
+}
+
 @media print {
   body {
     font-variant-ligatures: none;
@@ -271,5 +276,14 @@
   }
   h2 {
     letter-spacing: 0.14em;
+  }
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+  li,
+  p {
+    orphans: 3;
+    widows: 3;
   }
 }

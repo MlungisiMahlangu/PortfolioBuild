@@ -9,7 +9,7 @@ export function Projects() {
         <div>
           <Reveal>
             <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">
-              02 / Selected work
+              03 / Selected work
             </p>
           </Reveal>
           <Reveal delay={0.08}>

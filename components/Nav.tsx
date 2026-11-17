@@ -51,7 +51,7 @@ export function Nav() {
           Mlu<span className="text-[#3b5bff]">.</span>
         </a>
 
-        <nav className="hidden items-center gap-9 text-[13px] font-medium text-[#626262] md:flex">
+        <nav className="hidden items-center gap-7 text-[13px] font-medium text-[#626262] md:flex">
           {navLinks.map((link) => (
             <a key={link.href} className="group relative transition-colors hover:text-[#0a0a0a]" href={link.href}>
               {link.label}

@@ -1,10 +1,10 @@
 import { Reveal } from '@/components/Reveal'
-import { stats } from '@/lib/data'
+import { stats, venture } from '@/lib/data'
 
 const facts = [
   { label: 'Degree', value: 'BSc Computer Science, Wits' },
   { label: 'Focus', value: 'Full-stack · web & mobile' },
-  { label: 'Open to', value: 'Roles, freelance & collaborations' },
+  { label: 'Open to', value: 'Graduate & junior roles' },
   { label: 'Based in', value: 'Johannesburg, South Africa' },
 ]
 
@@ -32,11 +32,25 @@ export function About() {
           </Reveal>
           <Reveal delay={0.18}>
             <p className="mt-5 max-w-xl text-base leading-7 text-[#626262]">
-              I&apos;ve built a full-stack car rental platform from the database up, a web app that helps riders
-              check a driver&apos;s safety record before getting in the car, and a handful of other things in
-              between. Each one teaching me something the last one didn&apos;t. I care about software that feels
+              Each project taught me something the last one didn&apos;t. I care about software that feels
               considered, fast and clear. The difference between a project and a product is whether someone else
               can pick it up and just use it. I aim for the second one.
+            </p>
+          </Reveal>
+          <Reveal delay={0.21}>
+            <p className="mt-5 max-w-xl text-base leading-7 text-[#626262]">
+              In 2026 I founded{' '}
+              <a
+                href={venture.url}
+                target="_blank"
+                rel="noreferrer"
+                className="font-medium text-[#0a0a0a] underline decoration-black/25 underline-offset-4 transition-colors hover:text-[#3b5bff] hover:decoration-[#3b5bff]"
+              >
+                {venture.name}
+              </a>
+              {', '}an independent web development initiative I work on alongside my studies. It made the parts of
+              software that lectures skip feel real: hosting, pricing, communication, and the details that decide
+              whether something actually goes live.
             </p>
           </Reveal>
           <Reveal delay={0.24}>

@@ -7,6 +7,7 @@ import { Nav } from '@/components/Nav'
 import { Projects } from '@/components/Projects'
 import { ScrollProgress } from '@/components/ScrollProgress'
 import { Skills } from '@/components/Skills'
+import { Venture } from '@/components/Venture'
 import { WorkWithMe } from '@/components/WorkWithMe'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <Marquee />
         <About />
+        <Venture />
         <Projects />
         <Skills />
         <WorkWithMe />

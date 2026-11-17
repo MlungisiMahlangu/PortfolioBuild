@@ -10,7 +10,7 @@ export function WorkWithMe() {
           <div>
             <Reveal>
               <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#3b5bff]">
-                04 / Let&apos;s work together
+                05 / Let&apos;s work together
               </p>
             </Reveal>
             <Reveal delay={0.08}>

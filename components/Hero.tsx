@@ -1,7 +1,7 @@
 'use client'
 
 import { motion, useReducedMotion } from 'framer-motion'
-import { ArrowUpRight, Mail } from 'lucide-react'
+import { ArrowUpRight, Download, Mail } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Magnetic } from '@/components/Magnetic'
 import { MaskLine } from '@/components/Reveal'
@@ -41,7 +41,7 @@ export function Hero() {
             <span className="animate-ping-soft absolute inline-flex h-full w-full rounded-full bg-[#3b5bff]" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-[#3b5bff]" />
           </span>
-          Available for work & collaborations
+          Open to opportunities · Graduate & junior developer roles
         </motion.p>
 
         <h1 className="font-serif text-[clamp(2.9rem,6.5vw,5.2rem)] leading-[0.92] tracking-[-0.05em]">
@@ -59,7 +59,8 @@ export function Hero() {
           className="mt-10 max-w-md text-base leading-7 text-[#626262]"
         >
           I&apos;m <strong className="font-medium text-[#0a0a0a]">Mlungisi Mahlangu</strong>, a final-year Computer
-          Science student at Wits designing and shipping full-stack products across web and mobile.
+          Science student at Wits. I build full-stack applications across web and mobile, and I&apos;m looking for a
+          graduate or junior role where I can contribute inside a professional development team.
         </motion.p>
 
         <motion.div
@@ -70,10 +71,18 @@ export function Hero() {
         >
           <Magnetic>
             <a
-              href="#work"
+              href="#initiative"
               className="inline-flex items-center gap-2 rounded-full bg-[#3b5bff] px-6 py-3.5 text-sm font-medium text-white shadow-lg shadow-[#3b5bff]/25 transition-colors hover:bg-[#2948ed]"
             >
-              View projects <ArrowUpRight size={16} />
+              View my work <ArrowUpRight size={16} />
+            </a>
+          </Magnetic>
+          <Magnetic>
+            <a
+              href="/cv"
+              className="inline-flex items-center gap-2 rounded-full border border-black/15 px-6 py-3.5 text-sm font-medium transition-colors hover:border-[#3b5bff] hover:text-[#3b5bff]"
+            >
+              <Download size={15} /> Download CV
             </a>
           </Magnetic>
           <Magnetic>
@@ -81,7 +90,7 @@ export function Hero() {
               href="#contact"
               className="inline-flex items-center gap-2 rounded-full border border-black/15 px-6 py-3.5 text-sm font-medium transition-colors hover:border-[#3b5bff] hover:text-[#3b5bff]"
             >
-              <Mail size={15} /> Get in touch
+              <Mail size={15} /> Contact me
             </a>
           </Magnetic>
         </motion.div>
