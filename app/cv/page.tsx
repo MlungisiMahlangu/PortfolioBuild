@@ -1,6 +1,6 @@
 import { CVToolbar } from '@/components/CVToolbar'
 
-const cvFile = '/Mlungisi_Mahlangu_CV_Developer.pdf'
+const cvFile = '/Mlungisi_Mahlangu_CV_Dev.pdf'
 
 export const metadata = {
   title: 'CV · Mlungisi Mahlangu',

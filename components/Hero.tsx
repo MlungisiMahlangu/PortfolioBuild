@@ -79,8 +79,8 @@ export function Hero() {
           </Magnetic>
           <Magnetic>
             <a
-              href="/Mlungisi_Mahlangu_CV_Developer.pdf"
-              download="Mlungisi_Mahlangu_CV_Developer.pdf"
+              href="/Mlungisi_Mahlangu_CV_Dev.pdf"
+              download="Mlungisi_Mahlangu_CV_Dev.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-black/15 px-6 py-3.5 text-sm font-medium transition-colors hover:border-[#3b5bff] hover:text-[#3b5bff]"
             >
               <Download size={15} /> Download CV

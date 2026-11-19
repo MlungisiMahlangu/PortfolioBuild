@@ -13,8 +13,8 @@ export function CVToolbar() {
           <ArrowLeft size={16} /> Back to portfolio
         </a>
         <a
-          href="/Mlungisi_Mahlangu_CV_Developer.pdf"
-          download="Mlungisi_Mahlangu_CV_Developer.pdf"
+          href="/Mlungisi_Mahlangu_CV_Dev.pdf"
+          download="Mlungisi_Mahlangu_CV_Dev.pdf"
           className="inline-flex items-center gap-2 rounded-full bg-[#0a0a0a] px-5 py-2.5 text-xs font-medium text-white transition-colors hover:bg-[#3b5bff]"
         >
           <Download size={14} /> Download PDF
