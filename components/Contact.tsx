@@ -58,9 +58,7 @@ export function Contact() {
               </Magnetic>
               <Magnetic>
                 <a
-                  href="/Mlungisi_Mahlangu_CV_Developer.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/cv"
                   className="inline-flex items-center gap-2 rounded-full border border-black/15 px-7 py-4 text-sm font-medium transition-colors hover:border-[#3b5bff] hover:text-[#3b5bff]"
                 >
                   <Download size={15} /> View my CV
