@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowLeft, Printer } from 'lucide-react'
+import { ArrowLeft, Download } from 'lucide-react'
 
 export function CVToolbar() {
   return (
@@ -12,12 +12,13 @@ export function CVToolbar() {
         >
           <ArrowLeft size={16} /> Back to portfolio
         </a>
-        <button
-          onClick={() => window.print()}
+        <a
+          href="/Mlungisi_Mahlangu_CV_Developer.pdf"
+          download="Mlungisi_Mahlangu_CV_Developer.pdf"
           className="inline-flex items-center gap-2 rounded-full bg-[#0a0a0a] px-5 py-2.5 text-xs font-medium text-white transition-colors hover:bg-[#3b5bff]"
         >
-          <Printer size={14} /> Download PDF
-        </button>
+          <Download size={14} /> Download PDF
+        </a>
       </div>
     </div>
   )
